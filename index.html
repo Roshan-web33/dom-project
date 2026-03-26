@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><p>Logo</p></div>
+            <div class="navlink">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact US</a></li>
+                    <li><a href="#">About Us</a></li>
+
+                </ul>
+            </div>
+            <button class="username">Username</button>
+            <button class="logout"></button>
+        </div>
+    </header>
+    <div class="container">
+      <div class="div"><div class="addedItemes">
+        <h3>Added Itemes</h3>
+        <div class="heading">
+            <p>S.No</p>
+            <p>Service Name</p>
+            <p>Price</p>
+        </div>
+        <div class="emty">
+            <img src="https://media.istockphoto.com/id/908326850/vector/no-sign-empty-crossed-out-black-circle-vector-icon.jpg?s=612x612&w=0&k=20&c=vKDX_SZFAPPI4Ne5NqBPl3X3GALkR8cFxGJDE2qR00M=" alt="img"><h3>No Items Added</h3>
+            <p>Add items to the cart from the services bar</p>
+
+            
+
+        </div>
+        <div class="fix"> <div class="items-list"></div>
+    </div>
+        
+       
+        <div class="total">
+    Total: <span id="totalAmount">0</span>
+             </div>
+     
+    </div>
+    
+    <!-- ✅ BOOK NOW FORM (Added) -->
+        <div class="book">
+            <h3>Book Now</h3>
+
+            <label>Full Name</label>
+            <input type="text"  placeholder="Enter your name" required>
+
+            <div class="row">
+                <div>
+                    <label>Email ID</label>
+                    <input type="email" required placeholder="Enter email">
+                </div>
+
+                <div>
+                    <label>Phone Number</label>
+                    <input type="text" required placeholder="Enter number">
+                </div>
+            </div>
+
+            <button class="book-btn">Book Now</button>
+            <p id="error">Add the items to cart to the book</p>
+        </div>
+
+    </div>
+   <div class="services">
+
+    <h2>Browse Our Services</h2>
+    <p>Click on the add to cart button to add the <br>services to your cart or press skip</p>
+
+    <!-- Service Card -->
+    <div class="service-box">
+        <div class="imag">
+            <img id="display" src="https://plus.unsplash.com/premium_photo-1682129229709-c017d24fa3cb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="service">
+        </div>
+
+        
+
+        <div class="service-info">
+            <h4 class="name">Dry Cleaning</h4>
+            <span class="price">₹200</span>
+        </div>
+
+        <div class="service-buttons">
+            <button class="skip">Skip Item</button>
+            <button class="add">Add Item</button>
+        </div>
+    </div>
+
+            <a href="#">Add the items to the cart and book now</a>
+
+</div>
+
+</div>
+    
+    
+</body>
+<script src="script.js"></script>
+</html>
